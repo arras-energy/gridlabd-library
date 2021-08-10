@@ -11,6 +11,9 @@ object overhead_line_conductor {
         name "1/0_ACSR";
         geometric_mean_radius 0.135890cm;
         resistance 0.646847Ohm/km;
+        outer_cable_diameter 0.398in; 
+        cable_lineal_weight 0.145lbs/ft; 
+        cable_strength 4380lbs; 
 }
 
 object overhead_line_conductor {
@@ -89,6 +92,9 @@ object overhead_line_conductor {
         name "#2_ACSR_6/1";
         geometric_mean_radius 0.127000cm;
         resistance 1.010411Ohm/km;
+        outer_cable_diameter 0.316in; 
+        cable_lineal_weight 0.091lbs/ft; 
+        cable_strength 2850lbs; 
 }
 
 object overhead_line_conductor {
@@ -101,6 +107,9 @@ object overhead_line_conductor {
         name "4/0_ACSR";
         geometric_mean_radius 0.248158cm;
         resistance 0.349832Ohm/km;
+        outer_cable_diameter 0.563in; 
+        cable_lineal_weight 0.291lbs/ft; 
+        cable_strength 8350lbs; 
 }
 
 object overhead_line_conductor {
@@ -161,6 +170,9 @@ object overhead_line_conductor {
         name "101_ACSR_12/7";
         geometric_mean_radius 0.016256cm;
         resistance 0.679780Ohm/km;
+        outer_cable_diameter 0.461in; 
+        cable_lineal_weight 0.254lbs/ft; 
+        cable_strength 10400lbs; 
 }
 
 object overhead_line_conductor {
@@ -197,6 +209,9 @@ object overhead_line_conductor {
         name "1/0_ACSR_AZUSA";
         geometric_mean_radius 0.135890cm;
         resistance 0.658790Ohm/km;
+        outer_cable_diameter 0.398in; 
+        cable_lineal_weight 0.097lbs/ft; 
+        cable_strength 4460lbs; 
 }
 
 object overhead_line_conductor {
@@ -227,6 +242,10 @@ object overhead_line_conductor {
         name "6_ACSR";
         geometric_mean_radius 0.120142cm;
         resistance 2.460262Ohm/km;
+        outer_cable_diameter 0.198in; 
+        cable_lineal_weight 0.036lbs/ft; 
+        cable_strength 1190lbs; 
+
 }
 
 object overhead_line_conductor {
@@ -257,12 +276,18 @@ object overhead_line_conductor {
         name "477_ACSR_26/7";
         geometric_mean_radius 0.883920cm;
         resistance 0.131731Ohm/km;
+        outer_cable_diameter 0.858in; 
+        cable_lineal_weight 0.656lbs/ft; 
+        cable_strength 19500lbs; 
 }
 
 object overhead_line_conductor {
         name "397_ACSR_18/1";
         geometric_mean_radius 0.731520cm;
         resistance 0.159692Ohm/km;
+        outer_cable_diameter 0.743in; 
+        cable_lineal_weight 0.432lbs/ft; 
+        cable_strength 9940lbs; 
 }
 
 object overhead_line_conductor {
@@ -353,6 +378,9 @@ object overhead_line_conductor {
         name "2/0_ACSR_TW";
         geometric_mean_radius 0.155448cm;
         resistance 0.530030Ohm/km;
+        outer_cable_diameter 0.447in; 
+        cable_lineal_weight 0.183lbs/ft; 
+        cable_strength 5300lbs; 
 }
 
 object overhead_line_conductor {
@@ -377,6 +405,9 @@ object overhead_line_conductor {
         name "266_ACSR_26/7";
         geometric_mean_radius 0.661416cm;
         resistance 0.234319Ohm/km;
+        outer_cable_diameter 0.642in; 
+        cable_lineal_weight 0.367lbs/ft; 
+        cable_strength 11130lbs; 
 }
 
 object overhead_line_conductor {
@@ -431,6 +462,9 @@ object overhead_line_conductor {
         name "#4_ACSR_6/1";
         geometric_mean_radius 0.133096cm;
         resistance 1.572690Ohm/km;
+        outer_cable_diameter 0.250in; 
+        cable_lineal_weight 0.057lbs/ft; 
+        cable_strength 1860lbs; 
 }
 
 object overhead_line_conductor {
@@ -467,6 +501,9 @@ object overhead_line_conductor {
         name "397_ACSR_26/7";
         geometric_mean_radius 0.807720cm;
         resistance 0.157828Ohm/km;
+        outer_cable_diameter 0.783in; 
+        cable_lineal_weight 0.547lbs/ft; 
+        cable_strength 16300lbs; 
 }
 
 object overhead_line_conductor {
@@ -485,6 +522,9 @@ object overhead_line_conductor {
         name "556_ACSR_26/7";
         geometric_mean_radius 0.954024cm;
         resistance 0.113090Ohm/km;
+        outer_cable_diameter 0.927in; 
+        cable_lineal_weight 0.766lbs/ft; 
+        cable_strength 22600lbs; 
 }
 
 object overhead_line_conductor {
@@ -551,6 +591,9 @@ object overhead_line_conductor {
         name "4/0_ACSR_6/1";
         geometric_mean_radius 0.248920cm;
         resistance 0.349770Ohm/km;
+        outer_cable_diameter 0.563in; 
+        cable_lineal_weight 0.291lbs/ft; 
+        cable_strength 8350lbs; 
 }
 
 object overhead_line_conductor {
@@ -569,12 +612,18 @@ object overhead_line_conductor {
         name "2/0_ACSR_6/1";
         geometric_mean_radius 0.154940cm;
         resistance 0.530030Ohm/km;
+        outer_cable_diameter 0.447in; 
+        cable_lineal_weight 0.183lbs/ft; 
+        cable_strength 5300lbs; 
 }
 
 object overhead_line_conductor {
         name "1/0_ACSR_6/1";
         geometric_mean_radius 0.137160cm;
         resistance 0.646910Ohm/km;
+        outer_cable_diameter 0.398in; 
+        cable_lineal_weight 0.145lbs/ft; 
+        cable_strength 4380lbs; 
 }
 
 object overhead_line_conductor {
@@ -653,6 +702,9 @@ object overhead_line_conductor {
         name "336_ACSR_26/7";
         geometric_mean_radius 0.743712cm;
         resistance 0.186411Ohm/km;
+        outer_cable_diameter 0.720in; 
+        cable_lineal_weight 0.463lbs/ft; 
+        cable_strength 14100lbs; 
 }
 
 object overhead_line_conductor {
