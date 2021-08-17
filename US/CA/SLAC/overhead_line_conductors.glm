@@ -5,6 +5,12 @@
 // Note:  This file will not do anything on its own.
 //        Use it only as a reference or an "include" file.
 
+#define LIBRARY_Name="Overhead Line Conductors"
+#define LIBRARY_Version="0.0"
+#define LIBRARY_Author="dchassin"
+#define LIBRARY_Description="Wood poles library for California USA"
+#define LIBRARY_Module="powerflow"
+
 module powerflow;
 
 object overhead_line_conductor {
