@@ -1,8 +1,10 @@
-#define LIBRARY_Name="Wood Poles"
-#define LIBRARY_Version="0.0"
-#define LIBRARY_Author="dchassin"
-#define LIBRARY_Description="Wood poles library for California USA"
-#define LIBRARY_Module="powerflow"
+#meta library Name="Wood Poles"
+#meta library Version="0.0"
+#meta library Author="dchassin"
+#meta library Description="Wood poles library for California USA"
+#meta library Module="powerflow"
+
+module powerflow;
 
 object pole_configuration 
 {
