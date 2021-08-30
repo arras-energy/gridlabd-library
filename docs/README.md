@@ -1,6 +1,6 @@
 Welcome to the GridLAB-D Library.
 
-This library is organized by country.
+This library is organized by country and jurisdiction.
 
 # United States
 
