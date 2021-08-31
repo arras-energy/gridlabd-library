@@ -6,6 +6,7 @@
 
 // Names are based on ANSI O5.1-2015 species codes
 // See https://woodpoles.org/portals/2/documents/WoodPoleCode_Overview.pdf
+module powerflow;
 
 object pole_configuration 
 {
