@@ -1,0 +1,43 @@
+#!/bin/bash
+
+ROOT=$PWD
+COUNTRY=US
+
+function cleanup
+{
+	(cd $TMP; tar cfz $ROOT/autotest-results.tarz .)
+	rm -f $TMP/*
+	rmdir $TMP
+}
+
+trap cleanup EXIT
+
+TMP=$ROOT/.tmp$$
+mkdir -p $TMP
+
+TESTED=0
+PASSED=0
+FAILED=0
+
+for LIBRARY in $(find $COUNTRY/* -type d); do
+	FILES=$(ls $LIBRARY/*.glm 2>/dev/null)
+	if [ !  -z "$FILES" ]; then
+		echo "Processing $LIBRARY..."
+		for GLM in $FILES; do
+			NAME=$(basename $GLM)
+			echo -n "Testing $NAME..."
+			if gridlabd -W $TMP $PWD/$GLM 1>$TMP/${NAME/.glm/.out} 2>$TMP/${NAME/.glm/.err}; then
+				echo "OK"
+				PASSED=$(($PASSED+1))
+			else
+				echo "FAILED"
+				FAILED=$((FAILED+1))
+			fi
+			TESTED=$(($TESTED+1))
+		done
+	fi
+done
+echo "$PASSED passed"
+echo "$FAILED failed"
+echo "$TESTED done"
+echo "$((100*$PASSED/$TESTED)) success"
