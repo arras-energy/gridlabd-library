@@ -26,7 +26,7 @@ for LIBRARY in $(find $COUNTRY/* -type d); do
 		for GLM in $FILES; do
 			NAME=$(basename $GLM)
 			echo -n "Testing $NAME..."
-			if gridlabd -W $TMP $PWD/$GLM 1>$TMP/${NAME/.glm/.out} 2>$TMP/${NAME/.glm/.err}; then
+			if gridlabd -W $TMP $PWD/$GLM -o $TMP/${NAME/.glm/.json} 1>$TMP/${NAME/.glm/.out} 2>$TMP/${NAME/.glm/.err}; then
 				echo "OK"
 				PASSED=$(($PASSED+1))
 			else
