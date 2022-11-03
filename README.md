@@ -1,3 +1,5 @@
+[![validate](https://github.com/slacgismo/gridlabd-library/actions/workflows/validate.yml/badge.svg)](https://github.com/slacgismo/gridlabd-library/actions/workflows/validate.yml)
+
 Welcome to the GridLAB-D Library
 
 To view the current documentation, please use the [Docs Browser](http://docs.gridlabd.us/) and select the project [`gridlabd-library`](https://docs.gridlabd.us/index.html?owner=slacgismo&project=gridlabd-library&branch=master&folder=&doc=/README.md).
