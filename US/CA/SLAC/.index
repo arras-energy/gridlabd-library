@@ -1,2 +1,4 @@
 overhead_line_conductors.glm
 pole_configuration.glm
+regulator_configuration.glm
+transformer_configuration.glm
