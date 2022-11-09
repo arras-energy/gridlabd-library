@@ -1,0 +1,25 @@
+name: Develop
+
+on:
+  push:
+    branches: 
+      - "develop"
+  pull_request:
+    branches:
+      - "develop"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: slacgismo/gridlabd:latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Validate data
+      run: ./autotest
+    - name: Save results
+      uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: autotest-results.tarz
+        path: autotest-results.tarz

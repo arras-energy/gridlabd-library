@@ -1,13 +1,11 @@
-name: validate
+name: Master
 
 on:
   push:
     branches: 
-      - "develop"
       - "master"
   pull_request:
     branches:
-      - "develop"
       - "master"
 
 jobs:
