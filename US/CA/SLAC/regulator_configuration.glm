@@ -1,3 +1,9 @@
+#define LIBRARY_Name="Regulator Configuration"
+#define LIBRARY_Version="0.0"
+#define LIBRARY_Author="dchassin"
+#define LIBRARY_Description="Voltage regulator libraty for USA"
+#define LIBRARY_Module="powerflow"
+
 module powerflow;
 object regulator_configuration
 {
