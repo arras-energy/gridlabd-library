@@ -25,7 +25,9 @@ try:
                     else:
                         return ' '.join([title(y) for y in x])
                 labels = [title(x) for x in data.keys()]
+                horiz = ['----' for x in data.keys()]
                 print(f"| Name | {' | '.join(labels)} |")
+                print(f"| ---- | {' | '.join(horiz)} |")
                 first = False
             print(f"| {name} | {' | '.join(data.values())} |")
     os.remove(tmpfile)
