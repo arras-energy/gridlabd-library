@@ -1,3 +1,9 @@
+#define LIBRARY_Name="Transformer Configuration"
+#define LIBRARY_Version="0.0"
+#define LIBRARY_Author="dchassin"
+#define LIBRARY_Description="Transformer library for USA"
+#define LIBRARY_Module="powerflow"
+
 module powerflow;
 object transformer_configuration
 {
