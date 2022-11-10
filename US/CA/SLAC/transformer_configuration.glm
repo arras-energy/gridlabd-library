@@ -1,8 +1,9 @@
-#define LIBRARY_Name="Transformer Configuration"
-#define LIBRARY_Version="0.0"
-#define LIBRARY_Author="dchassin"
-#define LIBRARY_Description="Transformer library for USA"
-#define LIBRARY_Module="powerflow"
+#meta library Name="Transformer Configuration"
+#meta library Version="0.0"
+#meta library Author="dchassin"
+#meta library Description="Transformer library for USA"
+#meta library Module="powerflow"
+#meta library Search="{connect_type}-{install_type}-{primary_voltage}-{secondary_voltage}-{power_rating}"
 
 module powerflow;
 object transformer_configuration

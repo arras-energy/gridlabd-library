@@ -1,8 +1,9 @@
-#define LIBRARY_Name="Regulator Configuration"
-#define LIBRARY_Version="0.0"
-#define LIBRARY_Author="dchassin"
-#define LIBRARY_Description="Voltage regulator libraty for USA"
-#define LIBRARY_Module="powerflow"
+#meta library Name="Regulator Configuration"
+#meta library Version="0.0"
+#meta library Author="dchassin"
+#meta library Description="Voltage regulator libraty for USA"
+#meta library Module="powerflow"
+#meta library Search="{connect_type}-{band_center}-{band_width}-{control_level}-{Control}"
 
 module powerflow;
 object regulator_configuration

@@ -1,8 +1,9 @@
-#define LIBRARY_Name="Poles Configuration"
-#define LIBRARY_Version="0.0"
-#define LIBRARY_Author="ateyber"
-#define LIBRARY_Description="Wood poles library for USA"
-#define LIBRARY_Module="powerflow"
+#meta library Name="Pole Configuration"
+#meta library Version="0.0"
+#meta library Author="ateyber"
+#meta library Description="Wood poles library for USA"
+#meta library Module="powerflow"
+#meta library Search="{construction}-{material}-{length}/{grade}"
 
 // Names are based on ANSI O5.1-2015 species codes
 // See https://woodpoles.org/portals/2/documents/WoodPoleCode_Overview.pdf
