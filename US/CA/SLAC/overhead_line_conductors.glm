@@ -10,6 +10,7 @@
 #meta library Author="dchassin"
 #meta library Description="Wood poles library for California USA"
 #meta library Module="powerflow"
+#meta library Search="OHL-{type}"
 
 module powerflow;
 

@@ -1,0 +1,414 @@
+#meta library Name="Regulator Configuration"
+#meta library Version="0.0"
+#meta library Author="dchassin"
+#meta library Description="Voltage regulator libraty for USA"
+#meta library Module="powerflow"
+#meta library Search="{connect_type}-{band_center}-{band_width}-{control_level}-{Control}"
+
+module powerflow;
+object regulator_configuration
+{
+    name "WYE_WYE-7200V-120V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7200 V";
+    band_width "120 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7500V-60V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7500 V";
+    band_width "60 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7216V-120V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7216 V";
+    band_width "120 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7200V-120V-INDIVIDUAL-MANUAL";
+    connect_type "WYE_WYE";
+    band_center "7200 V";
+    band_width "120 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "MANUAL";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-20748V-332V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "20748 V";
+    band_width "332 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7967V-133V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7967 V";
+    band_width "133 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7970V-132V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7970 V";
+    band_width "132 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-13773V-220V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "13773 V";
+    band_width "220 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7967V-132V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7967 V";
+    band_width "132 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-14975V-240V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "14975 V";
+    band_width "240 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-7500V-120V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "7500 V";
+    band_width "120 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-19918V-332V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "19918 V";
+    band_width "332 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-14435V-120.3V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "14435 V";
+    band_width "120.3 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
+object regulator_configuration
+{
+    name "WYE_WYE-14376V-240V-INDIVIDUAL-OUTPUT_VOLTAGE";
+    connect_type "WYE_WYE";
+    band_center "14376 V";
+    band_width "240 V";
+    time_delay "30 s";
+    dwell_time "0 s";
+    raise_taps "16";
+    lower_taps "16";
+    current_transducer_ratio "0 pu";
+    power_transducer_ratio "0 pu";
+    compensator_r_setting_A "0 V";
+    compensator_r_setting_B "0 V";
+    compensator_r_setting_C "0 V";
+    compensator_x_setting_A "0 V";
+    compensator_x_setting_B "0 V";
+    compensator_x_setting_C "0 V";
+    CT_phase "CBA";
+    PT_phase "CBA";
+    regulation "0.1 %";
+    control_level "INDIVIDUAL";
+    Control "OUTPUT_VOLTAGE";
+    reverse_flow_control "LOCK_NONE";
+    Type "B";
+    tap_pos_A "0";
+    tap_pos_B "0";
+    tap_pos_C "0";
+}
