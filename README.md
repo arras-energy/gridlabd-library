@@ -1,5 +1,5 @@
-[![validate](https://github.com/slacgismo/gridlabd-library/actions/workflows/master.yml/badge.svg)](https://github.com/slacgismo/gridlabd-library/actions/workflows/master.yml)
-[![validate](https://github.com/slacgismo/gridlabd-library/actions/workflows/develop.yml/badge.svg)](https://github.com/slacgismo/gridlabd-library/actions/workflows/develop.yml)
+[![Master](https://github.com/arras-energy/gridlabd-library/actions/workflows/master.yml/badge.svg)](https://github.com/arras-energy/gridlabd-library/actions/workflows/master.yml)
+[![Develop](https://github.com/arras-energy/gridlabd-library/actions/workflows/develop.yml/badge.svg)](https://github.com/arras-energy/gridlabd-library/actions/workflows/develop.yml)
 
 Welcome to the GridLAB-D Library
 
